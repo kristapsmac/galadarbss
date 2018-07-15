@@ -1,0 +1,150 @@
+#menu{
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 5 10;
+    background-image: url("images/bg.jpg");
+    font-family: Haettenschweiler;
+    font-size: 40;
+    font-weight: bolder;
+    position:fixed;
+    width:100%;
+    height:100px;
+    top:0;
+    overflow: hidden;
+}
+.izvelne{
+    font-weight: 500;
+}
+.modal-header{
+    background:skyblue;
+}
+.modal-body{
+    font-size:90;
+    background:rgb(53, 110, 133);
+}
+.modal-footer{
+    font-size:90;
+    background:rgb(28, 64, 78);
+}
+
+li {
+    display: inline;
+    position: relative;
+    padding-left: 20px;
+   
+    
+}
+li a:hover {
+    background-color: lightskyblue;
+    text-decoration: none;
+    color:white;
+}
+li a.patreiz {
+    background-color: rgb(67, 119, 151);
+    
+    color: white;
+}
+
+a{
+    color:black;
+}
+.carousel{
+    color: white;
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;  
+}
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+  div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family:Corbel;
+    font-size:15;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+           padding: 0 6px;
+           float: left;
+           width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 700px) {
+    .izvelne{
+        font-size: 20;
+    }
+    .carousel{
+        font-size:10;
+        color: white;
+        text-shadow:
+        -0.5px -0.5px 0 #000,
+        0.5px -0.5px 0 #000,
+        -0.5px 0.5px 0 #000,
+        0.5px 0.5px 0 #000;  
+    }
+}
+.responsiveapi{
+    padding: 0 6px;
+           float: left;
+           width: 24.99999%;
+}
+@media only screen and (max-width: 1250px) {
+    .responsiveapi {
+        width: 33%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .responsiveapi {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 630px) {
+    .responsiveapi {
+        width: 100%;
+    }
+}

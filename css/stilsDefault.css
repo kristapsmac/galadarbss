@@ -1,0 +1,121 @@
+body {
+    background: url("../images/bg.png");
+    margin-top: 120px;
+ }
+#menu{
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 5 10;
+    background: black;
+    font-family: Nexa;
+    font-size: 40;
+    position:fixed;
+    width:100%;
+    height:100px;
+    top:0;
+    overflow: hidden;
+}
+.izvelne{
+    font-weight: 500;
+}
+@media only screen and (max-width: 700px) {
+    .izvelne{
+        font-size: 15;
+    }
+}
+li {
+    display: inline;
+    position: relative;
+    padding-left: 20px;
+}
+li a:hover {
+    background-color: gray;
+    text-decoration: none;
+    color:white;
+}
+li a.patreiz {
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+a{
+    color:azure;
+}
+.modal-header{
+    background:rgb(255, 255, 255);
+    color:black;
+}
+.modal-body{
+    font-size:90;
+    background:rgb(146, 146, 146);
+    color:black;
+}
+.modal-footer{
+    font-size:90;
+    background:rgb(48, 48, 48);
+    color:black;
+}
+.main{
+    float:left; 
+    padding:10px;
+    width:33%;
+    font-family: simplifica;
+    font-weight: 600;
+    font-size:25px;
+    color:black(0, 0, 59);
+    text-indent: 50px;
+}
+@media only screen and (max-width: 1700px) {
+    .main {
+        width: 50%;
+        margin: 6px 0;
+       
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .main {
+        width: 100%;
+        padding:0px 0px 0px 50px;
+    }
+}
+.clearBoth {
+     clear:both; 
+}
+#cat{
+    margin-top: 50;
+    width:500;
+    padding:0px 0px 0px 50px;
+}
+@media only screen and (max-width: 1150px) {
+    #aboutcat {
+        width: 75%;
+        padding:0px 0px 0px 100px;
+    }
+}
+
+
+.main a{
+    color:black;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1700px) {
+    #news {
+        padding:0px 0px 0px 100px;
+        width: 75%;
+        margin: 6px 0;
+      
+    };
+}
+h1{
+    text-align:center;
+    font-weight: 900;
+    font-size:60;  
+}
+h2{
+    text-align:left;
+    font-weight: 900;
+    font-size:45;  
+}
+
