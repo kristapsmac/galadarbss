@@ -21,7 +21,7 @@ body {
 }
 @media only screen and (max-width: 700px) {
     .izvelne{
-        font-size: 15;
+      font-size: 25;
     }
 }
 li {
@@ -57,7 +57,7 @@ body {
   }
   
   .row > .column {
-    padding: 0 160px;
+    padding: 5px 10px 0 80px;
   }
   
   .row:after {
@@ -91,7 +91,7 @@ body {
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    width: 90%;
+    width: 70%;
     max-width: 1200px;
   }
   
@@ -172,6 +172,7 @@ body {
   
   .demo {
     opacity: 0.6;
+    max-width: 100%;
   }
   
   .active,
@@ -189,18 +190,38 @@ body {
 .column {
         width: 33%;
         margin: 6px 0;
-    }
+}
+    .bildes{
+      width:33%;
+}
+    
 
-  @media only screen and (max-width: 1990px ) {
+  @media only screen and (max-width: 2400px ) {
     .column {
         width: 50%;
         
     }
+    .bildes{
+      width:100%;
+    }
 }
 
-@media only screen and (max-width: 1270px) {
+@media only screen and (max-width: 1450px) {
     .column  {
         width: 100%;
         
     }
+    .bildes{
+      width:100%;
+    }
+}
+@media only screen and (max-width: 850px) {
+  .column  {
+      width: 100%;
+      
+      
+  }
+  .bildes{
+    width:60%;
+  }
 }

@@ -21,7 +21,7 @@ body {
 }
 @media only screen and (max-width: 700px) {
     .izvelne{
-        font-size: 15;
+        font-size: 25;
     }
 }
 li {
@@ -64,7 +64,7 @@ a{
     font-weight: 600;
     font-size:25px;
     color:black(0, 0, 59);
-    text-indent: 50px;
+    
 }
 @media only screen and (max-width: 1700px) {
     .main {
@@ -77,7 +77,8 @@ a{
 @media only screen and (max-width: 1150px) {
     .main {
         width: 100%;
-        padding:0px 0px 0px 50px;
+        padding:0px 0px 0px 0px;
+        
     }
 }
 .clearBoth {
@@ -90,8 +91,9 @@ a{
 }
 @media only screen and (max-width: 1150px) {
     #aboutcat {
-        width: 75%;
-        padding:0px 0px 0px 100px;
+        width: 100%;
+        padding:0px 50px 0px 100px;
+        text-indent: 50;
     }
 }
 
@@ -105,6 +107,7 @@ a{
         padding:0px 0px 0px 100px;
         width: 75%;
         margin: 6px 0;
+        text-indent: 50;
       
     };
 }
@@ -118,4 +121,56 @@ h2{
     font-weight: 900;
     font-size:45;  
 }
+@media only screen and (max-width: 700px) {
+    #news {
+        padding:0px 0px 0px 50px;
+        width: 80%;
+        margin: 0 0;
+        text-indent: 50;
+      
+    };
+}
+@media only screen and (max-width: 700px) {
+    #aboutcat {
+        padding:0px 0px 0px 50px;
+        width: 80%;
+        margin: 0 0;
+        text-indent: 50;
+      
+    };
+}
+@media only screen and (max-width: 700px) {
+    #cat {
+        padding:0px 0px 0px 50px;
+        width: 80%;
+        margin: 0 0;
+    
+      
+    };
+}
+@media only screen and (max-width: 1700px) {
+    #aboutcat {
+        
+        text-indent: 50;
+    }
+}
+@media only screen and (max-width: 1700px) {
+    #news {
+        
+        text-indent: 50;
+    }
+}
+
+    #aboutcat {
+        
+        text-indent: 50;
+    }
+
+
+    #news {
+        
+        text-indent: 50;
+    }
+
+
 

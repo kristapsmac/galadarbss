@@ -22,7 +22,7 @@ body {
 }
 @media only screen and (max-width: 700px) {
     .izvelne{
-        font-size: 15;
+        font-size: 25;
     }
 }
 li {
@@ -45,11 +45,12 @@ a{
 }
 div.gallery {
     border: 1px solid #ccc;
+    margin:10px 0 10px 10px;
 }
 
 div.gallery:hover {
     border: 1px solid #777;
-    background-color:rgb(168, 168, 168);
+    background-color:rgba(168, 168, 168, 0.623);
 }
 
 div.gallery img {

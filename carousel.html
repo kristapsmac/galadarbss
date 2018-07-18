@@ -18,7 +18,7 @@
 <body>
     <ul id="menu">
         <li>
-            <img src="images/logo.png" alt="logo" width="6%" />
+            <img src="images/logo.png" alt="logo" height="50%" />
         </li>
         <li class="izvelne">
 
@@ -48,7 +48,9 @@
         <div> <img src="images/7.jpg" alt="" > </div>
     </div>
     <script>$(document).ready(function () {
-            $(".owl-carousel").owlCarousel();
+            $(".owl-carousel").owlCarousel({
+                loop: true
+            });
         });
     </script>
 </body>

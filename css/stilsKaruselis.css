@@ -22,13 +22,18 @@ body {
 }
 @media only screen and (max-width: 1250px) {
     body{
-        margin-top: 500px;
+        margin-top: 300px;
     }
+}
+    @media only screen and (max-width: 700px) {
+        body{
+            margin-top: 300px;
+        }
 
 }
 @media only screen and (max-width: 700px) {
     .izvelne{
-        font-size: 15;
+        font-size: 25;
     }
 }
 li {
